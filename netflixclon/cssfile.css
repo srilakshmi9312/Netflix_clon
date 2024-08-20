@@ -1,0 +1,271 @@
+body,html{
+    background-color: black;
+    max-width: 100%;
+    background-position: scroll;
+}
+body {
+    background-color: rgb(39, 39, 39) !important;
+  }
+  
+.logo {
+    width: 10rem;
+    padding: 0.2em;
+  }
+.default-ltr-cache-1d568uk {
+    color: rgb(229, 9, 20);
+    fill: currentColor;
+  }
+.dropdown-toggle {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+  }
+.section-2 {
+    background: url("netfliximg.jpg");
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+    box-shadow: rgb(229, 9, 20);
+    border-bottom: 10px solid rgb(62, 62, 62);
+  }
+.overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 90vh;
+    position: absolute;
+  }
+.sbtn {
+    background-color: rgb(229, 9, 20) !important;
+    color: white !important;
+    outline: none;
+  }
+.sbtn:hover {
+    background-color: rgba(223, 16, 16, 0.526) !important;
+  }
+  
+.center-text {
+    color: #ffff;
+    z-index: 999;
+    font-weight: 1000;
+  }
+.gsbtn {
+    background-color: rgb(229, 9, 20) !important;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-weight: 900;
+    color: #ffff;
+    width: 10em;
+    padding: 0.2rem;
+    font-size: 1.5rem;
+  }
+#email-input {
+    padding: 0.4rem;
+    width: 20em;
+    height: 3.3rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    color: white;
+  }
+.form-control:focus {
+    border-color: #ffffff !important;
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25) !important;
+  }
+#email-input::placeholder {
+    color: darkgrey;
+  }
+.secondpage{
+    font-family: 'Roboto';
+    justify-content:space-evenly;
+    background-color: black;
+    display: flex;  
+    border-bottom: 10px solid rgb(62, 62, 62);
+}
+#f3{
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    font-weight: 900;
+    color:white;
+    margin-left: 9em;
+    margin-top: 6em;
+    margin-bottom: 8em;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 15em;
+}
+.container .box{
+    position: relative;
+    width: 500px;
+    height: 300px;
+}
+.container .box video
+{
+  position: absolute;
+  top: 22%;
+  right: 2%;
+  left: 15%;
+  bottom: 10%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+.thirdpage{
+    background-color: black;
+    display: flex;
+    justify-content:space-evenly;
+    border-bottom: 10px solid rgb(62, 62, 62);
+}
+.mini{
+    display: flex;
+    border: 3px solid white;
+    border-radius: 5px; 
+    height: 6em;
+    width: 50%;
+
+}
+.leftside img{
+    z-index: -1;
+}
+#c6{
+    color:white;
+    font-family: 'Roboto';
+    font-weight: 900;
+    margin-top: 9%;
+}
+.fouthpage{
+    color: white;
+    display: flex;
+    background-color: black;
+    font-family: 'Roboto';
+    font-weight: 900;
+    border-bottom: 10px solid rgb(62, 62, 62);
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    margin: 0;
+}
+.tv-container {
+    position: relative;
+    width: 800px; /* Adjust the width as per your image size */
+    height: 500px; /* Adjust the height as per your image size */
+}
+
+.tv-image {
+    width: 100%;
+    height: auto;
+}
+.tv-video {
+    position: absolute;
+    top: 16%; /* Adjust the top value to fit your TV screen */
+    left: 19%; /* Adjust the left value to fit your TV screen */
+    width: 60%; /* Adjust the width to fit your TV screen */
+    height: 58%; /* Adjust the height to fit your TV screen */
+}
+#c7{
+    margin: auto;
+}
+#c8{
+    margin-right: 10em;
+}
+
+.fifthpage{
+    display: flex;
+    background-color: black;
+    border-bottom: 10px solid rgb(62, 62, 62);
+}
+    
+#c9{
+    margin: auto;
+}
+#c10{
+    color: white;
+    font-family: 'Roboto';
+    font-weight: 900;
+    margin-top: 10em;
+    margin-right: 12em;
+}
+.sixthpage{
+    background-color:black;
+    border-bottom: 11px solid rgb(62, 62, 62);
+}
+.heading{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+}
+ul{
+    width: 75%;
+    margin: 60px auto;
+    padding-bottom: 2em;
+    color: white;
+    font-size: 20px;
+}
+ul li {
+    margin-bottom: 1em;
+}  
+details {
+    background: #303030;
+    padding-bottom: 2em;
+}
+  
+details summary{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    list-style: none;
+    user-select: none;
+    padding: 8px 40px;
+}
+  
+details summary i {
+    transition: 0.15s;
+}
+  
+details[open] summary i {
+    transform: rotate(45deg);
+}
+  
+details p {
+    padding: 26px;
+    border-top: 1px solid #000;
+}
+.details{
+    color:white;
+    text-align: center;
+}
+.seventhpage{
+    background-color: black;
+    
+}
+.page div{
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    padding-left: 13em;
+}
+#contact{
+    padding-top: 4em;
+    color:white;
+    padding-left: 13em;
+}
+.dropdown2{
+    background-color: black;
+    margin-left: 13em;    
+}
+.dropdown-toggle {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    border: 1px solid white;
+}
+#last{
+    color:white;
+    padding-left: 13em;
+    padding-top: 1em;
+
+}
+
